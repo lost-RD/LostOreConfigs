@@ -1,0 +1,267 @@
+{
+    "diamond_geode": {
+        "enabled": true,
+        "template": {
+            "type": "uniform",
+            "generator": "geode",
+            "crust": "minecraft:obsidian",
+            "hollow": "true",
+            "filler": [
+                {
+                    "name": "minecraft:flowing_lava",
+                    "weight": 40
+                },
+                {
+                    "name": "minecraft:stone",
+                    "weight": 60
+                }
+            ]
+        },
+        "block": [
+            {
+                "name": "PoorOres:poor_diamond_ore",
+                "weight": 66
+            },
+            {
+                "name": "diamond_ore",
+                "weight": 34
+            }
+        ],
+        "material": [
+            "minecraft:stone",
+            "minecraft:gravel",
+            "minecraft:dirt",
+            "minecraft:sand",
+            "minecraft:water",
+            "minecraft:lava",
+            "minecraft:flowing_water",
+            "minecraft:flowing_lava",
+            "minecraft:air"
+        ],
+        "numClusters": 1,
+        "clusterSize": 10,
+        "minHeight": 0,
+        "maxHeight": 64,
+        "chunkChance": 400,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "emerald_geode": {
+        "enabled": true,
+        "template": {
+            "type": "uniform",
+            "generator": "geode",
+            "crust": "minecraft:obsidian",
+            "hollow": "true",
+            "filler": [
+                {
+                    "name": "minecraft:flowing_lava",
+                    "weight": 40
+                },
+                {
+                    "name": "minecraft:stone",
+                    "weight": 60
+                }
+            ]
+        },
+        "block": [
+            {
+                "name": "gravel",
+                "weight": 66
+            },
+            {
+                "name": "emerald_ore",
+                "weight": 34
+            }
+        ],
+        "material": [
+            "minecraft:stone",
+            "minecraft:gravel",
+            "minecraft:dirt",
+            "minecraft:sand",
+            "minecraft:water",
+            "minecraft:lava",
+            "minecraft:flowing_water",
+            "minecraft:flowing_lava",
+            "minecraft:air"
+        ],
+        "numClusters": 1,
+        "clusterSize": 10,
+        "minHeight": 16,
+        "chunkChance": 32,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "MOUNTAIN"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "coal_stalagmites": {
+        "template": {
+            "type": "cave",
+            "generator": "stalagmite",
+            "genBody": "air",
+            "minHeight": 4,
+            "heightVariance": 2,
+            "genSize": 2,
+            "heightMod": 2,
+            "sizeVariance": 1,
+            "smooth": "true",
+            "fat": "false",
+            "ceiling": "false"
+        },
+        "block": [
+            {
+                "name": "minecraft:diamond_ore",
+                "weight": 1
+            },
+            {
+                "name": "minecraft:coal_ore",
+                "weight": 99
+            }
+        ],
+        "material": [
+            "minecraft:stone",
+            "minecraft:air"
+        ],
+        "numClusters": 1,
+        "minHeight": 0,
+        "maxHeight": 32,
+        "chunkChance": 1,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "diamond_spikes": {
+        "template": {
+            "type": "uniform",
+            "generator": "spike",
+            "minHeight": 10,
+            "heightVariance": 6,
+            "sizeVariance": 4,
+            "positionVariance": 4,
+            "largeSpikes": "true",
+            "largeSpikeChance": 10,
+            "minLargeSpikeHeightGain": 10,
+            "largeSpikeHeightVariance": 10,
+            "largeSpikeFillerSize": 0
+        },
+        "block": [
+            {
+                "name": "coal_ore",
+                "weight": 50
+            },
+            {
+                "name": "PoorOres:poor_diamond_ore",
+                "weight": 34
+            },
+            {
+                "name": "diamond_ore",
+                "weight": 16
+            }
+        ],
+        "material": [
+            "minecraft:stone",
+            "minecraft:gravel",
+            "minecraft:dirt",
+            "minecraft:sand",
+            "minecraft:water",
+            "minecraft:lava",
+            "minecraft:flowing_water",
+            "minecraft:flowing_lava",
+            "minecraft:air"
+        ],
+        "numClusters": 8,
+        "minHeight": 1,
+        "chunkChance": 500,
+        "maxHeight": 5,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "river_gold": {
+        "template": {
+            "type": "underfluid",
+            "generator": "cluster"
+        },
+        "block": [
+            {
+                "name": "PoorOres:poor_gold_ore",
+                "weight": 50
+            },
+            {
+                "name": "minecraft:sand",
+                "weight": 25
+            },
+            {
+                "name": "minecraft:dirt",
+                "weight": 25
+            }
+        ],
+        "material": [
+            "minecraft:sand",
+            "Mekanism:SaltBlock"
+        ],
+        "numClusters": 1,
+        "chunkChance": 1,
+        "clusterSize": 32,
+        "minHeight": 50,
+        "maxHeight": 65,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "RIVER"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "quartz": {
+        "enabled": true,
+        "template": "uniform",
+        "block": "quartz_ore",
+        "material": "minecraft: netherrack",
+        "clusterSize": 13,
+        "numClusters": 16,
+        "minHeight": 10,
+        "maxHeight": 118,
+        "retrogen": false,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "NETHER"
+            }
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": []
+    }
+}

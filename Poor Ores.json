@@ -1,0 +1,244 @@
+{
+	"coal_average": {
+        "template": {
+            "type": "uniform",
+            "generator": "plate",
+			"height": 1,
+			"sizeVariance": 1,
+			"slim": "true",
+        },
+        "block": [
+            {
+                "name": "denseores:block0",
+                "metadata": 6,
+                "weight": 0
+            },
+            {
+                "name": "minecraft:coal_ore",
+                "weight": 10
+            },
+            {
+                "name": "PoorOres:poor_coal_ore",
+                "weight": 70
+            },
+            {
+                "name": "minecraft:dirt",
+                "weight": 20
+            }
+        ],
+        "material": [
+            "minecraft:stone",
+            "minecraft:grass",
+            "minecraft:dirt"
+        ],
+        "numClusters": 1,
+        "chunkChance": 25,
+        "clusterSize": 25,
+        "minHeight": 55,
+		"maxHeight": 65,
+        "veinHeight": 5,
+        "veinDiameter": 64,
+        "verticalDensity": 64,
+        "horizontalDensity": 5,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "SWAMP"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "iron_poor": {
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": "false"
+        },
+        "block": [
+            {
+                "name": "denseores:block0",
+                "weight": 0
+            },
+            {
+                "name": "minecraft:iron_ore",
+                "weight": 10
+            },
+            {
+                "name": "PoorOres:poor_iron_ore",
+                "weight": 70
+            },
+            {
+                "name": "minecraft:gravel",
+                "weight": 20
+            }
+        ],
+        "material": [
+            "minecraft:stone",
+            "minecraft:grass",
+            "minecraft:dirt"
+        ],
+        "numClusters": 5,
+        "chunkChance": 900,
+        "clusterSize": 256,
+        "minHeight": 40,
+        "veinHeight": 24,
+        "veinDiameter": 64,
+        "verticalDensity": 100,
+        "horizontalDensity": 50,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "gold_poor": {
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": "false"
+        },
+        "block": [
+            {
+                "name": "denseores:block0",
+                "metadata": 1,
+                "weight": 0
+            },
+            {
+                "name": "minecraft:gold_ore",
+                "weight": 10
+            },
+            {
+                "name": "PoorOres:poor_gold_ore",
+                "weight": 70
+            },
+            {
+                "name": "minecraft:gravel",
+                "weight": 20
+            }
+        ],
+        "clusterSize": 64,
+        "numClusters": 120,
+        "chunkChance": 900,
+        "minHeight": 0,
+        "veinHeight": 40,
+        "veinDiameter": 48,
+        "verticalDensity": 15,
+        "horizontalDensity": 15,
+        "retrogen": false,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "SANDY"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "redstone_poor": {
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": "false"
+        },
+        "block": [
+            {
+                "name": "denseores:block0",
+                "metadata": 5,
+                "weight": 0
+            },
+            {
+                "name": "minecraft:redstone_ore",
+                "weight": 10
+            },
+            {
+                "name": "PoorOres:poor_redstone_ore",
+                "weight": 70
+            },
+            {
+                "name": "minecraft:gravel",
+                "weight": 20
+            }
+        ],
+        "clusterSize": 32,
+        "numClusters": 120,
+        "chunkChance": 900,
+        "minHeight": 0,
+        "veinHeight": 20,
+        "veinDiameter": 48,
+        "verticalDensity": 15,
+        "horizontalDensity": 15,
+        "retrogen": false,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "FOREST"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "lapis_poor": {
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": "false"
+        },
+        "block": [
+            {
+                "name": "denseores:block0",
+                "metadata": 2,
+                "weight": 0
+            },
+            {
+                "name": "minecraft:lapis_ore",
+                "weight": 10
+            },
+            {
+                "name": "PoorOres:poor_lapis_ore",
+                "weight": 70
+            },
+            {
+                "name": "minecraft:gravel",
+                "weight": 20
+            }
+        ],
+        "clusterSize": 32,
+        "numClusters": 80,
+        "chunkChance": 900,
+        "minHeight": 0,
+        "veinHeight": 32,
+        "veinDiameter": 32,
+        "verticalDensity": 15,
+        "horizontalDensity": 15,
+        "retrogen": false,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "MOUNTAIN"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}
