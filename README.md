@@ -1,5 +1,12 @@
 Here be my ore configs that ye of the reddits have asked for.
 
+Some links to pages that I used heavily:
+
+* http://teamcofh.com/core-mods/cofhcore/ore-generation/
+* https://cofh.github.io/mods/cofh-core/custom-world-generation.html
+* http://forum.feed-the-beast.com/threads/cofh-world-generation-users-manual.48678/
+* http://forum.feed-the-beast.com/threads/cofh-core-ores-and-more.87151/
+
 As of 2015/06/03 I have implemented:
 
 * Rich, average and poor deposits of the following:
@@ -10,7 +17,7 @@ As of 2015/06/03 I have implemented:
 	* lapis
 * Special ore types for:
 	* diamond spikes and geodes
-	* emerald geodes (doesn't seem to work)
+	* emerald geodes (should work now)
 	* gold in river beds (too uncommon, needs tweaking)
 	* coal stalagmites in caves
 
